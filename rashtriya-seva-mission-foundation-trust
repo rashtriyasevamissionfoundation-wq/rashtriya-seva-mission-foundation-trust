@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>राष्ट्रीय सेवा मिशन फाउंडेशन ट्रस्ट</title>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background: #f5f7fa;
+      color: #222;
+      line-height: 1.6;
+    }
+
+    header {
+      background: linear-gradient(135deg, #0d47a1, #1976d2);
+      color: white;
+      text-align: center;
+      padding: 35px 15px;
+    }
+
+    header h1 {
+      font-size: 30px;
+      margin-bottom: 8px;
+    }
+
+    header p {
+      font-size: 17px;
+    }
+
+    nav {
+      background: #ffffff;
+      text-align: center;
+      padding: 15px 5px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      position: sticky;
+      top: 0;
+      z-index: 10;
+    }
+
+    nav a {
+      color: #0d47a1;
+      text-decoration: none;
+      margin: 0 10px;
+      font-weight: bold;
+    }
+
+    .hero {
+      background: linear-gradient(rgba(0,0,0,.55), rgba(0,0,0,.55)),
+      url("https://images.unsplash.com/photo-1532629345422-7515f3d16bb6?auto=format&fit=crop&w=1600&q=80");
+      background-size: cover;
+      background-position: center;
+      color: white;
+      text-align: center;
+      padding: 100px 20px;
+    }
+
+    .hero h2 {
+      font-size: 38px;
+      margin-bottom: 15px;
+    }
+
+    .hero p {
+      font-size: 19px;
+      max-width: 700px;
+      margin: auto;
+    }
+
+    section {
+      max-width: 1000px;
+      margin: auto;
+      padding: 55px 20px;
+    }
+
+    section h2 {
+      color: #0d47a1;
+      text-align: center;
+      margin-bottom: 25px;
+      font-size: 28px;
+    }
+
+    .about {
+      text-align: center;
+      font-size: 17px;
+    }
+
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      background: white;
+      padding: 25px;
+      border-radius: 12px;
+      text-align: center;
+      box-shadow: 0 3px 12px rgba(0,0,0,.1);
+    }
+
+    .card h3 {
+      color: #1976d2;
+      margin-bottom: 10px;
+    }
+
+    .contact {
+      background: white;
+      border-radius: 12px;
+      padding: 30px;
+      text-align: center;
+      box-shadow: 0 3px 12px rgba(0,0,0,.1);
+    }
+
+    .contact p {
+      margin: 10px;
+      font-size: 17px;
+    }
+
+    footer {
+      background: #0d47a1;
+      color: white;
+      text-align: center;
+      padding: 25px 15px;
+      margin-top: 20px;
+    }
+
+    @media(max-width:600px) {
+      header h1 {
+        font-size: 23px;
+      }
+
+      .hero h2 {
+        font-size: 28px;
+      }
+
+      nav a {
+        display: inline-block;
+        margin: 5px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>राष्ट्रीय सेवा मिशन फाउंडेशन ट्रस्ट</h1>
+    <p>सेवा • सहयोग • समाज कल्याण</p>
+  </header>
+
+  <nav>
+    <a href="#home">होम</a>
+    <a href="#about">हमारे बारे में</a>
+    <a href="#services">सेवाएँ</a>
+    <a href="#contact">संपर्क करें</a>
+  </nav>
+
+  <div class="hero" id="home">
+    <h2>राष्ट्रीय सेवा मिशन फाउंडेशन ट्रस्ट</h2>
+    <p>
+      समाज के जरूरतमंद लोगों की सहायता और सामाजिक विकास के लिए
+      समर्पित एक सेवा संस्था।
+    </p>
+  </div>
+
+  <section id="about">
+    <h2>हमारे बारे में</h2>
+
+    <div class="about">
+      <p>
+        राष्ट्रीय सेवा मिशन फाउंडेशन ट्रस्ट का उद्देश्य समाज में
+        सेवा, शिक्षा, स्वास्थ्य, जागरूकता और जरूरतमंद लोगों की सहायता
+        के माध्यम से सकारात्मक परिवर्तन लाना है।
+      </p>
+      <br>
+      <p>
+        हमारा प्रयास है कि समाज के प्रत्येक वर्ग तक सहायता और
+        सेवा पहुँचाई जा सके।
+      </p>
+    </div>
+  </section>
+
+  <section id="services">
+    <h2>हमारी सेवाएँ</h2>
+
+    <div class="cards">
+
+      <div class="card">
+        <h3>शिक्षा सेवा</h3>
+        <p>
+          जरूरतमंद बच्चों और युवाओं को शिक्षा के लिए सहयोग।
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>स्वास्थ्य सेवा</h3>
+        <p>
+          स्वास्थ्य जागरूकता एवं जरूरतमंद लोगों की सहायता।
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>समाज सेवा</h3>
+        <p>
+          जरूरतमंद परिवारों और कमजोर वर्गों की सहायता।
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>जन जागरूकता</h3>
+        <p>
+          सामाजिक मुद्दों के प्रति लोगों को जागरूक करना।
+        </p>
+      </div>
+
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>संपर्क करें</h2>
+
+    <div class="contact">
+      <p><strong>संस्था:</strong> राष्ट्रीय सेवा मिशन फाउंडेशन ट्रस्ट</p>
+
+      <p>
+        <strong>फोन:</strong>
+        <a href="tel:07309780531">07309780531</a>
+      </p>
+
+      <p>
+        <strong>Email:</strong>
+        अपनी ईमेल आईडी यहाँ लिखें
+      </p>
+
+      <p>
+        <strong>पता:</strong>
+        अपना कार्यालय का पता यहाँ लिखें
+      </p>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2026 राष्ट्रीय सेवा मिशन फाउंडेशन ट्रस्ट</p>
+    <p>सभी अधिकार सुरक्षित</p>
+  </footer>
+
+</body>
+</html>
